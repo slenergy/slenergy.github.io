@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="slenergy" /><link rel="canonical" href="https://slenergy.github.io/test/" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>Markdown 完整特性测试文档 - My Blog</title>
+    <title>这是一份测试文档 - My Blog</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Markdown \u5b8c\u6574\u7279\u6027\u6d4b\u8bd5\u6587\u6863";
+        var mkdocs_page_name = "\u8fd9\u662f\u4e00\u4efd\u6d4b\u8bd5\u6587\u6863";
         var mkdocs_page_input_path = "test.md";
         var mkdocs_page_url = "/test/";
       </script>
@@ -41,12 +41,22 @@
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <ul>
                 <li class="toctree-l1"><a class="reference internal" href="..">Welcome to MkDocs</a>
+    <ul>
+    <li class="toctree-l2"><a class="reference internal" href="..#commands">Commands</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="..#project-layout">Project layout</a>
+    </li>
+    </ul>
                 </li>
               </ul>
               <ul class="current">
-                <li class="toctree-l1 current"><a class="reference internal current" href="#">Markdown 完整特性测试文档</a>
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">这是一份测试文档</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#_1">标题层级</a>
+    <li class="toctree-l2"><a class="reference internal" href="#_2">文本样式</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_3">代码</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_4">表格</a>
     </li>
     </ul>
                 </li>
@@ -65,7 +75,7 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
-      <li class="breadcrumb-item active">Markdown 完整特性测试文档</li>
+      <li class="breadcrumb-item active">这是一份测试文档</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -74,69 +84,18 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="markdown">Markdown 完整特性测试文档<a class="headerlink" href="#markdown" title="Permanent link">&para;</a></h1>
-<blockquote>
-<p>一份包含所有常用 Markdown 语法的测试文件，用于验证渲染效果</p>
-</blockquote>
-<hr />
-<h2 id="_1">标题层级<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
-<h1 id="_2">一级标题<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h1>
-<h2 id="_3">二级标题<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
-<h3 id="_4">三级标题<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
-<h4 id="_5">四级标题<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h4>
-<h5 id="_6">五级标题<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h5>
-<h6 id="_7">六级标题<a class="headerlink" href="#_7" title="Permanent link">&para;</a></h6>
-<hr />
-<h2 id="_8">文本样式<a class="headerlink" href="#_8" title="Permanent link">&para;</a></h2>
+                <h1 id="_1">这是一份测试文档</h1>
+<h2 id="_2">文本样式</h2>
 <ul>
 <li><strong>加粗文本</strong></li>
 <li><em>斜体文本</em></li>
 <li><strong><em>粗斜体文本</em></strong></li>
-<li>~~删除线文本~~</li>
-<li><u>下划线文本</u></li>
-<li>==高亮文本==</li>
-<li>普通文本^上标^</li>
-<li>普通文本~下标~</li>
+<li><del>删除线文本</del></li>
+<li><mark>高亮文本</mark></li>
+<li>普通文本<sup>上标</sup></li>
+<li>普通文本<sub>下标</sub></li>
 </ul>
-<hr />
-<h2 id="_9">引用语法<a class="headerlink" href="#_9" title="Permanent link">&para;</a></h2>
-<blockquote>
-<p>单层引用</p>
-<blockquote>
-<p>嵌套二级引用</p>
-<blockquote>
-<p>嵌套三级引用</p>
-</blockquote>
-</blockquote>
-</blockquote>
-<hr />
-<h2 id="_10">列表语法<a class="headerlink" href="#_10" title="Permanent link">&para;</a></h2>
-<h3 id="_11">无序列表<a class="headerlink" href="#_11" title="Permanent link">&para;</a></h3>
-<ul>
-<li>列表项 1</li>
-<li>列表项 2</li>
-<li>子列表项 1</li>
-<li>子列表项 2<ul>
-<li>子子列表项</li>
-</ul>
-</li>
-</ul>
-<h3 id="_12">有序列表<a class="headerlink" href="#_12" title="Permanent link">&para;</a></h3>
-<ol>
-<li>第一项</li>
-<li>第二项</li>
-<li>第三项</li>
-<li>子项 1</li>
-<li>子项 2</li>
-</ol>
-<h3 id="_13">任务列表<a class="headerlink" href="#_13" title="Permanent link">&para;</a></h3>
-<ul>
-<li>[x] 已完成任务</li>
-<li>[ ] 未完成任务</li>
-<li>[ ] 待办任务</li>
-</ul>
-<hr />
-<h2 id="_14">代码<a class="headerlink" href="#_14" title="Permanent link">&para;</a></h2>
+<h2 id="_3">代码</h2>
 <pre><code class="language-c">#include &quot;stdio.h&quot;
 
 int main(void)
@@ -146,8 +105,7 @@ int main(void)
 }
 
 </code></pre>
-<hr />
-<h2 id="_15">表格<a class="headerlink" href="#_15" title="Permanent link">&para;</a></h2>
+<h2 id="_4">表格</h2>
 <table>
 <thead>
 <tr>
@@ -162,11 +120,6 @@ int main(void)
 </tr>
 </tbody>
 </table>
-<h2 id="admonition">admonition<a class="headerlink" href="#admonition" title="Permanent link">&para;</a></h2>
-<div class="admonition note 笔记">
-<p class="admonition-title">Note</p>
-<p>这是一条笔记</p>
-</div>
               
             </div>
           </div><footer>
